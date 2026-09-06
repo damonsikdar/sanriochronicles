@@ -1,0 +1,389 @@
+/* ============================================================
+   Sanrio Chronicles — Main Stylesheet
+   ============================================================ */
+
+:root {
+  --pink:        #ff85a1;
+  --pink-light:  #ffe4ee;
+  --pink-dark:   #d45f7a;
+  --lavender:    #c9b1f5;
+  --mint:        #b5ecd6;
+  --cream:       #fffaf4;
+  --text:        #3b2d3e;
+  --text-muted:  #7a6080;
+  --white:       #ffffff;
+  --radius:      16px;
+  --shadow:      0 4px 20px rgba(200, 120, 160, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--cream);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ── Nav ─────────────────────────────────────────────────── */
+
+.site-header {
+  background: var(--white);
+  border-bottom: 3px solid var(--pink-light);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow);
+}
+
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--pink-dark);
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: color 0.2s;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--pink-dark);
+}
+
+.nav-links a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--pink);
+  border-radius: 2px;
+}
+
+/* ── Hero ────────────────────────────────────────────────── */
+
+.hero {
+  background: linear-gradient(135deg, var(--pink-light) 0%, var(--lavender) 50%, var(--mint) 100%);
+  padding: 6rem 1.5rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  color: var(--pink-dark);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+/* ── Page Hero (inner pages) ─────────────────────────────── */
+
+.page-hero {
+  background: linear-gradient(135deg, var(--pink-light), var(--lavender));
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 900;
+  color: var(--pink-dark);
+  margin-bottom: 0.5rem;
+}
+
+.page-hero p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* ── Buttons ─────────────────────────────────────────────── */
+
+.btn {
+  display: inline-block;
+  background: var(--pink);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 50px;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 4px 12px rgba(255, 133, 161, 0.4);
+}
+
+.btn:hover {
+  background: var(--pink-dark);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--pink-dark);
+  border: 2px solid var(--pink);
+  box-shadow: none;
+}
+
+.btn-outline:hover {
+  background: var(--pink-light);
+  transform: translateY(-2px);
+}
+
+/* ── Sections ────────────────────────────────────────────── */
+
+.section {
+  padding: 4rem 1.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: var(--pink-dark);
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.center-link {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+/* ── Cards (home character grid) ────────────────────────── */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(200, 120, 160, 0.25);
+}
+
+.card-img-placeholder {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--pink-dark);
+  margin-bottom: 0.25rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* ── Character list (characters page) ───────────────────── */
+
+.character-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.character-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.character-img-placeholder {
+  font-size: 5rem;
+  flex-shrink: 0;
+  background: var(--pink-light);
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-img-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.character-info h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--pink-dark);
+  margin-bottom: 0.25rem;
+}
+
+.character-role {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--lavender);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.character-info p:not(.character-role) {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.character-details {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+
+.character-details li {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.character-details strong {
+  color: var(--text);
+}
+
+/* ── Gallery ─────────────────────────────────────────────── */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.03);
+}
+
+.gallery-placeholder {
+  grid-column: 1 / -1;
+  background: var(--pink-light);
+  border-radius: var(--radius);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.gallery-placeholder code {
+  background: var(--white);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* ── Footer ──────────────────────────────────────────────── */
+
+.site-footer {
+  background: var(--pink-dark);
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  padding: 2rem 1.5rem;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .character-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .character-details {
+    justify-content: center;
+  }
+}
