@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200" width="160" height="200">
+  <!-- shadow -->
+  <rect x="18" y="185" width="130" height="10" rx="5" fill="#ccc" opacity="0.3"/>
+  <!-- notebook body -->
+  <rect x="20" y="10" width="128" height="175" rx="10" fill="#ffffff" stroke="#003087" stroke-width="3"/>
+  <!-- spine -->
+  <rect x="20" y="10" width="22" height="175" rx="8" fill="#c8102e"/>
+  <!-- spiral rings -->
+  <circle cx="31" cy="38" r="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="31" cy="38" r="3" fill="#c8102e"/>
+  <circle cx="31" cy="70" r="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="31" cy="70" r="3" fill="#c8102e"/>
+  <circle cx="31" cy="102" r="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="31" cy="102" r="3" fill="#c8102e"/>
+  <circle cx="31" cy="134" r="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="31" cy="134" r="3" fill="#c8102e"/>
+  <circle cx="31" cy="163" r="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="31" cy="163" r="3" fill="#c8102e"/>
+  <!-- ruled lines -->
+  <line x1="52" y1="50" x2="138" y2="50" stroke="#dde4f5" stroke-width="2"/>
+  <line x1="52" y1="68" x2="138" y2="68" stroke="#dde4f5" stroke-width="2"/>
+  <line x1="52" y1="86" x2="138" y2="86" stroke="#dde4f5" stroke-width="2"/>
+  <line x1="52" y1="104" x2="138" y2="104" stroke="#dde4f5" stroke-width="2"/>
+  <line x1="52" y1="122" x2="138" y2="122" stroke="#dde4f5" stroke-width="2"/>
+  <line x1="52" y1="140" x2="138" y2="140" stroke="#dde4f5" stroke-width="2"/>
+  <line x1="52" y1="158" x2="138" y2="158" stroke="#dde4f5" stroke-width="2"/>
+  <!-- bow sticker on cover -->
+  <ellipse cx="84" cy="26" rx="14" ry="9" fill="#c8102e" transform="rotate(-20 84 26)"/>
+  <ellipse cx="84" cy="26" rx="10" ry="6" fill="#ff4060" transform="rotate(-20 84 26)"/>
+  <ellipse cx="106" cy="26" rx="14" ry="9" fill="#c8102e" transform="rotate(20 106 26)"/>
+  <ellipse cx="106" cy="26" rx="10" ry="6" fill="#ff4060" transform="rotate(20 106 26)"/>
+  <ellipse cx="95" cy="27" rx="7" ry="6" fill="#b0001a"/>
+  <ellipse cx="95" cy="27" rx="4" ry="4" fill="#c8102e"/>
+  <!-- "SANRIO HIGH" label -->
+  <rect x="52" y="148" width="86" height="22" rx="5" fill="#003087"/>
+  <text x="95" y="163" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">SANRIO HIGH ★</text>
+</svg>

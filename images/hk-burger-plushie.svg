@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- shadow -->
+  <ellipse cx="100" cy="208" rx="52" ry="10" fill="#e0b89a" opacity="0.4"/>
+
+  <!-- bottom bun -->
+  <ellipse cx="100" cy="172" rx="62" ry="22" fill="#f5c57a"/>
+  <ellipse cx="100" cy="165" rx="62" ry="22" fill="#f9d98a"/>
+  <ellipse cx="100" cy="162" rx="62" ry="14" fill="#fde9a8"/>
+
+  <!-- patty -->
+  <ellipse cx="100" cy="145" rx="58" ry="18" fill="#7a3e18"/>
+  <ellipse cx="100" cy="138" rx="58" ry="18" fill="#9b4f22"/>
+  <!-- patty texture -->
+  <ellipse cx="78" cy="136" rx="7" ry="4" fill="#7a3e18" opacity="0.5"/>
+  <ellipse cx="100" cy="133" rx="9" ry="4" fill="#7a3e18" opacity="0.5"/>
+  <ellipse cx="122" cy="137" rx="7" ry="4" fill="#7a3e18" opacity="0.5"/>
+
+  <!-- cheese -->
+  <ellipse cx="100" cy="126" rx="62" ry="14" fill="#f9c23c"/>
+  <ellipse cx="100" cy="120" rx="62" ry="14" fill="#fdd55a"/>
+  <!-- cheese drip corners -->
+  <path d="M40 122 Q32 130 36 136" stroke="#fdd55a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M160 122 Q168 130 164 136" stroke="#fdd55a" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- lettuce -->
+  <path d="M38 114 Q50 100 62 112 Q74 100 86 112 Q98 100 110 112 Q122 100 134 112 Q146 100 158 112 Q162 118 158 122 Q146 112 134 120 Q122 108 110 120 Q98 108 86 120 Q74 108 62 120 Q50 112 38 122 Z" fill="#6abf5e"/>
+
+  <!-- top bun -->
+  <ellipse cx="100" cy="100" rx="65" ry="38" fill="#f5c57a"/>
+  <ellipse cx="100" cy="88" rx="65" ry="38" fill="#f9d98a"/>
+  <!-- bun shine -->
+  <ellipse cx="82" cy="74" rx="18" ry="10" fill="#fef3cc" opacity="0.6" transform="rotate(-15 82 74)"/>
+
+  <!-- sesame seeds -->
+  <ellipse cx="88" cy="70" rx="5" ry="3" fill="#e8b55a" transform="rotate(-20 88 70)"/>
+  <ellipse cx="108" cy="65" rx="5" ry="3" fill="#e8b55a" transform="rotate(10 108 65)"/>
+  <ellipse cx="120" cy="78" rx="5" ry="3" fill="#e8b55a" transform="rotate(-10 120 78)"/>
+  <ellipse cx="76" cy="84" rx="4" ry="2.5" fill="#e8b55a" transform="rotate(15 76 84)"/>
+
+  <!-- Hello Kitty bow on top -->
+  <!-- left bow loop -->
+  <ellipse cx="76" cy="52" rx="18" ry="12" fill="#e8001a" transform="rotate(-30 76 52)"/>
+  <ellipse cx="76" cy="52" rx="13" ry="8" fill="#ff4060" transform="rotate(-30 76 52)"/>
+  <!-- right bow loop -->
+  <ellipse cx="124" cy="52" rx="18" ry="12" fill="#e8001a" transform="rotate(30 124 52)"/>
+  <ellipse cx="124" cy="52" rx="13" ry="8" fill="#ff4060" transform="rotate(30 124 52)"/>
+  <!-- bow center knot -->
+  <ellipse cx="100" cy="54" rx="10" ry="8" fill="#c8001a"/>
+  <ellipse cx="100" cy="54" rx="6" ry="5" fill="#e8001a"/>
+
+  <!-- cute face on bun -->
+  <!-- eyes -->
+  <circle cx="88" cy="88" r="3.5" fill="#222"/>
+  <circle cx="112" cy="88" r="3.5" fill="#222"/>
+  <!-- eye shine -->
+  <circle cx="89.5" cy="86.5" r="1.2" fill="white"/>
+  <circle cx="113.5" cy="86.5" r="1.2" fill="white"/>
+  <!-- rosy cheeks -->
+  <ellipse cx="78" cy="94" rx="8" ry="5" fill="#ffaaaa" opacity="0.6"/>
+  <ellipse cx="122" cy="94" rx="8" ry="5" fill="#ffaaaa" opacity="0.6"/>
+  <!-- smile -->
+  <path d="M90 97 Q100 104 110 97" stroke="#222" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- plushie stitch lines -->
+  <ellipse cx="100" cy="92" rx="68" ry="42" fill="none" stroke="#e8b55a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+</svg>

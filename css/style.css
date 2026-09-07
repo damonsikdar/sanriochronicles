@@ -337,20 +337,34 @@ img {
   gap: 0;
 }
 
-/* scrolling deco bars */
+/* deco bars */
 .hk-deco-bar {
-  background: #c8102e;
-  color: white;
-  font-size: 1rem;
-  padding: 0.4rem 1rem;
-  white-space: nowrap;
+  background: #fff4f6;
+  border-bottom: 2px dashed #c8102e;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 1rem;
   overflow: hidden;
-  letter-spacing: 0.5rem;
-  user-select: none;
 }
 
 .hk-deco-bar--bottom {
-  background: #003087;
+  border-bottom: none;
+  border-top: 2px dashed #003087;
+  background: #f0f4ff;
+}
+
+.hk-deco-pencil {
+  height: 80px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.hk-deco-notebook {
+  height: 90px;
+  width: auto;
+  flex-shrink: 0;
 }
 
 /* inner layout */
@@ -380,10 +394,12 @@ img {
   width: 140px;
 }
 
-.hk-plushie-inner {
-  font-size: 2.8rem;
-  line-height: 1;
-  filter: drop-shadow(2px 3px 0px rgba(0,0,0,0.15));
+.hk-plushie-img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(2px 3px 0px rgba(0,0,0,0.12));
 }
 
 .hk-plushie-label {
