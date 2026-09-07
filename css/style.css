@@ -328,21 +328,93 @@ img {
 
 #hello-kitty {
   background: #ffffff;
-  border-top: 6px solid #c8102e;
-  border-bottom: 4px solid #003087;
-  box-shadow: 0 4px 24px rgba(200, 16, 46, 0.15);
+  border: 3px solid #003087;
+  box-shadow: 0 6px 28px rgba(200, 16, 46, 0.18);
   position: relative;
   overflow: hidden;
+  padding: 0;
+  flex-direction: column;
+  gap: 0;
 }
 
-#hello-kitty::before {
-  content: '';
-  position: absolute;
-  top: 0; right: 0;
-  width: 180px;
-  height: 100%;
-  background: linear-gradient(135deg, transparent 40%, rgba(200, 16, 46, 0.06) 100%);
-  pointer-events: none;
+/* scrolling deco bars */
+.hk-deco-bar {
+  background: #c8102e;
+  color: white;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 0.5rem;
+  user-select: none;
+}
+
+.hk-deco-bar--bottom {
+  background: #003087;
+}
+
+/* inner layout */
+.hk-body {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+/* left column: photo + plushie */
+.hk-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+/* plushie badge */
+.hk-plushie {
+  background: #fff8f0;
+  border: 2.5px dashed #c8102e;
+  border-radius: 14px;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  width: 140px;
+}
+
+.hk-plushie-inner {
+  font-size: 2.8rem;
+  line-height: 1;
+  filter: drop-shadow(2px 3px 0px rgba(0,0,0,0.15));
+}
+
+.hk-plushie-label {
+  font-size: 0.65rem;
+  font-weight: 900;
+  color: #c8102e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0.3rem;
+}
+
+/* sticker row */
+.hk-stickers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.hk-stickers span {
+  background: #003087;
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  letter-spacing: 0.4px;
+}
+
+.hk-stickers span:nth-child(odd) {
+  background: #c8102e;
 }
 
 #hello-kitty h2 {
@@ -363,6 +435,19 @@ img {
 
 #hello-kitty .character-details strong {
   color: #c8102e;
+}
+
+@media (max-width: 600px) {
+  .hk-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hk-left {
+    width: 100%;
+  }
+  .hk-plushie {
+    width: 100%;
+  }
 }
 
 /* ── Gallery ─────────────────────────────────────────────── */
