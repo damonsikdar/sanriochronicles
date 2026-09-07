@@ -324,6 +324,47 @@ img {
   color: var(--text);
 }
 
+/* ── Hello Kitty card theme (red, blue & white) ─────────── */
+
+#hello-kitty {
+  background: #ffffff;
+  border-top: 6px solid #c8102e;
+  border-bottom: 4px solid #003087;
+  box-shadow: 0 4px 24px rgba(200, 16, 46, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+#hello-kitty::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 180px;
+  height: 100%;
+  background: linear-gradient(135deg, transparent 40%, rgba(200, 16, 46, 0.06) 100%);
+  pointer-events: none;
+}
+
+#hello-kitty h2 {
+  color: #c8102e;
+}
+
+#hello-kitty .character-role {
+  color: #003087;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+#hello-kitty .character-img-placeholder {
+  background: #f0f4ff;
+  border: 3px solid #003087;
+  box-shadow: 4px 4px 0 #c8102e;
+}
+
+#hello-kitty .character-details strong {
+  color: #c8102e;
+}
+
 /* ── Gallery ─────────────────────────────────────────────── */
 
 .gallery-grid {
