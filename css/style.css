@@ -355,16 +355,11 @@ img {
   background: #f0f4ff;
 }
 
-.hk-deco-pencil {
-  height: 80px;
+.hk-deco-backpack {
+  height: 70px;
   width: auto;
   flex-shrink: 0;
-}
-
-.hk-deco-notebook {
-  height: 90px;
-  width: auto;
-  flex-shrink: 0;
+  image-rendering: auto;
 }
 
 /* inner layout */
