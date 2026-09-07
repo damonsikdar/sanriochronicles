@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 300" width="260" height="300">
+  <defs>
+    <radialGradient id="bunTop" cx="42%" cy="35%" r="58%">
+      <stop offset="0%"   stop-color="#f5d080"/>
+      <stop offset="60%"  stop-color="#d4943a"/>
+      <stop offset="100%" stop-color="#a86020"/>
+    </radialGradient>
+    <radialGradient id="bunBot" cx="50%" cy="40%" r="55%">
+      <stop offset="0%"   stop-color="#e8c060"/>
+      <stop offset="100%" stop-color="#b87830"/>
+    </radialGradient>
+    <radialGradient id="pattyGrad" cx="50%" cy="40%" r="55%">
+      <stop offset="0%"   stop-color="#8b4018"/>
+      <stop offset="100%" stop-color="#5a2008"/>
+    </radialGradient>
+    <radialGradient id="cheeseGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%"   stop-color="#fde870"/>
+      <stop offset="100%" stop-color="#e8b820"/>
+    </radialGradient>
+    <filter id="plushShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-color="#00000033"/>
+    </filter>
+    <filter id="innerSoft">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- ── DROP SHADOW ───────────────────────────── -->
+  <ellipse cx="130" cy="293" rx="78" ry="9" fill="#00000022"/>
+
+  <!-- ── BOTTOM BUN ─────────────────────────────── -->
+  <ellipse cx="130" cy="248" rx="95" ry="32" fill="#c07828"/>
+  <ellipse cx="130" cy="240" rx="95" ry="32" fill="url(#bunBot)"/>
+  <!-- bottom bun stitch lines -->
+  <path d="M48 238 Q130 232 212 238" stroke="#b06820" stroke-width="1.5" fill="none" stroke-dasharray="5 4" opacity="0.5"/>
+  <!-- bottom bun shine -->
+  <ellipse cx="100" cy="232" rx="28" ry="10" fill="#fde8a0" opacity="0.25" transform="rotate(-10 100 232)"/>
+
+  <!-- ── TOMATO ──────────────────────────────────── -->
+  <ellipse cx="130" cy="226" rx="90" ry="20" fill="#c83020"/>
+  <ellipse cx="130" cy="220" rx="90" ry="20" fill="#e04030"/>
+  <!-- tomato sheen -->
+  <ellipse cx="95" cy="214" rx="22" ry="7" fill="#ff6050" opacity="0.4" transform="rotate(-8 95 214)"/>
+
+  <!-- ── PATTY ───────────────────────────────────── -->
+  <ellipse cx="130" cy="208" rx="98" ry="26" fill="#5a2008"/>
+  <ellipse cx="130" cy="200" rx="98" ry="26" fill="url(#pattyGrad)"/>
+  <!-- patty texture bumps -->
+  <ellipse cx="90"  cy="196" rx="12" ry="6"  fill="#7a3010" opacity="0.6"/>
+  <ellipse cx="125" cy="192" rx="16" ry="6"  fill="#7a3010" opacity="0.6"/>
+  <ellipse cx="162" cy="196" rx="12" ry="6"  fill="#7a3010" opacity="0.6"/>
+  <ellipse cx="108" cy="204" rx="10" ry="5"  fill="#7a3010" opacity="0.5"/>
+  <ellipse cx="148" cy="204" rx="10" ry="5"  fill="#7a3010" opacity="0.5"/>
+  <!-- patty highlight -->
+  <ellipse cx="95" cy="194" rx="20" ry="7" fill="#c05020" opacity="0.5" transform="rotate(-5 95 194)"/>
+
+  <!-- ── CHEESE ──────────────────────────────────── -->
+  <!-- cheese drips at sides -->
+  <path d="M44 192 Q35 200 40 212" stroke="#fdd840" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M216 192 Q225 200 220 212" stroke="#fdd840" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="130" cy="188" rx="100" ry="20" fill="#e8a800"/>
+  <ellipse cx="130" cy="182" rx="100" ry="20" fill="url(#cheeseGrad)"/>
+  <!-- cheese shine -->
+  <ellipse cx="92" cy="176" rx="24" ry="8" fill="#fff8a0" opacity="0.5" transform="rotate(-8 92 176)"/>
+
+  <!-- ── LETTUCE ──────────────────────────────────── -->
+  <!-- wavy lettuce shape -->
+  <path d="M35 176 Q50 160 68 174 Q85 160 102 174 Q119 158 136 174 Q153 160 170 174 Q187 160 204 174 Q216 168 225 176
+           Q215 186 204 180 Q187 168 170 182 Q153 168 136 182 Q119 166 102 182 Q85 168 68 182 Q50 168 35 180 Z"
+        fill="#4caa38"/>
+  <!-- lettuce highlight veins -->
+  <path d="M68 174 Q76 166 85 174"  stroke="#70d050" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M102 174 Q110 164 119 174" stroke="#70d050" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M136 174 Q144 164 153 174" stroke="#70d050" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- lettuce outer frills -->
+  <path d="M35 176 Q28 168 35 162 Q42 174 50 166" stroke="#3a9028" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M225 176 Q232 168 225 162 Q218 174 210 166" stroke="#3a9028" stroke-width="2" fill="none" opacity="0.7"/>
+
+  <!-- ── TOP BUN ──────────────────────────────────── -->
+  <!-- bun base shadow ring -->
+  <ellipse cx="130" cy="162" rx="105" ry="30" fill="#a06018"/>
+  <!-- main top bun -->
+  <ellipse cx="130" cy="100" rx="105" ry="78" fill="url(#bunTop)" filter="url(#plushShadow)"/>
+  <!-- plush texture stitches around bun edge -->
+  <path d="M28 120 Q130 40 232 120" stroke="#b07828" stroke-width="2" fill="none" stroke-dasharray="6 5" opacity="0.4"/>
+  <!-- sesame seeds -->
+  <ellipse cx="95"  cy="72" rx="9"  ry="5"  fill="#c88828" transform="rotate(-25 95 72)"/>
+  <ellipse cx="122" cy="58" rx="10" ry="5"  fill="#c88828" transform="rotate(10 122 58)"/>
+  <ellipse cx="155" cy="65" rx="9"  ry="5"  fill="#c88828" transform="rotate(-10 155 65)"/>
+  <ellipse cx="170" cy="88" rx="8"  ry="4.5" fill="#c88828" transform="rotate(15 170 88)"/>
+  <ellipse cx="78"  cy="90" rx="7.5" ry="4" fill="#c88828" transform="rotate(-15 78 90)"/>
+  <!-- bun shine highlight -->
+  <ellipse cx="98" cy="72" rx="36" ry="20" fill="#fde8a8" opacity="0.28" transform="rotate(-20 98 72)"/>
+
+  <!-- ── HK FACE ──────────────────────────────────── -->
+  <!-- left eye -->
+  <ellipse cx="104" cy="118" rx="8" ry="9" fill="#1a1a1a"/>
+  <ellipse cx="106" cy="115" rx="3"  ry="3" fill="#ffffff"/>
+  <!-- right eye -->
+  <ellipse cx="156" cy="118" rx="8" ry="9" fill="#1a1a1a"/>
+  <ellipse cx="158" cy="115" rx="3"  ry="3" fill="#ffffff"/>
+  <!-- nose (yellow oval) -->
+  <ellipse cx="130" cy="130" rx="7" ry="5" fill="#ffc820"/>
+  <!-- whiskers left -->
+  <line x1="60"  y1="122" x2="102" y2="127" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <line x1="58"  y1="132" x2="102" y2="132" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <line x1="62"  y1="142" x2="102" y2="137" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <!-- whiskers right -->
+  <line x1="200" y1="122" x2="158" y2="127" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <line x1="202" y1="132" x2="158" y2="132" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <line x1="198" y1="142" x2="158" y2="137" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <!-- rosy cheeks -->
+  <ellipse cx="84"  cy="138" rx="18" ry="11" fill="#ff9090" opacity="0.45"/>
+  <ellipse cx="176" cy="138" rx="18" ry="11" fill="#ff9090" opacity="0.45"/>
+
+  <!-- ── BOW ─────────────────────────────────────── -->
+  <!-- bow left loop -->
+  <ellipse cx="96"  cy="38" rx="28" ry="18" fill="#c8102e" transform="rotate(-25 96 38)"/>
+  <ellipse cx="96"  cy="38" rx="20" ry="12" fill="#e83050" transform="rotate(-25 96 38)"/>
+  <ellipse cx="90"  cy="32" rx="8"  ry="5"  fill="#ff6070" opacity="0.5" transform="rotate(-25 90 32)"/>
+  <!-- bow right loop -->
+  <ellipse cx="164" cy="38" rx="28" ry="18" fill="#c8102e" transform="rotate(25 164 38)"/>
+  <ellipse cx="164" cy="38" rx="20" ry="12" fill="#e83050" transform="rotate(25 164 38)"/>
+  <ellipse cx="170" cy="32" rx="8"  ry="5"  fill="#ff6070" opacity="0.5" transform="rotate(25 170 32)"/>
+  <!-- bow knot -->
+  <ellipse cx="130" cy="40" rx="16" ry="14" fill="#a00020"/>
+  <ellipse cx="130" cy="40" rx="10" ry="9"  fill="#c8102e"/>
+  <ellipse cx="126" cy="36" rx="4"  ry="3"  fill="#ff7080" opacity="0.6"/>
+
+  <!-- ── OUTLINE (cartoon stroke) ───────────────── -->
+  <!-- eye outlines -->
+  <ellipse cx="104" cy="118" rx="8" ry="9" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <ellipse cx="156" cy="118" rx="8" ry="9" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- bun outer outline -->
+  <ellipse cx="130" cy="100" rx="105" ry="78" fill="none" stroke="#7a4810" stroke-width="3"/>
+  <!-- bottom bun outline -->
+  <ellipse cx="130" cy="240" rx="95" ry="32" fill="none" stroke="#906020" stroke-width="2.5"/>
+  <!-- bow outlines -->
+  <ellipse cx="96"  cy="38" rx="28" ry="18" fill="none" stroke="#800010" stroke-width="2" transform="rotate(-25 96 38)"/>
+  <ellipse cx="164" cy="38" rx="28" ry="18" fill="none" stroke="#800010" stroke-width="2" transform="rotate(25 164 38)"/>
+  <ellipse cx="130" cy="40" rx="16" ry="14" fill="none" stroke="#800010" stroke-width="2"/>
+</svg>
