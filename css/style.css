@@ -337,24 +337,19 @@ img {
   gap: 0;
 }
 
-/* floating decorations */
-.hk-floating-backpack {
+/* floating decorations — one of each, all in different spots */
+.hk-deco {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  height: 80px;
-  width: auto;
   z-index: 2;
+  pointer-events: none;
 }
 
-.hk-floating-fries {
-  position: absolute;
-  bottom: 1rem;
-  right: 1.5rem;
-  height: 100px;
-  width: auto;
-  z-index: 2;
-}
+.hk-deco--backpack  { top: 0.5rem;  right: 0.75rem; height: 75px;  transform: rotate(8deg); }
+.hk-deco--handbag   { bottom: 0.5rem; left: 0.5rem;  height: 80px;  transform: rotate(-6deg); }
+.hk-deco--sketchpad { top: 0.5rem;  left: 50%;      height: 90px;  transform: translateX(-50%) rotate(-4deg); }
+.hk-deco--makeup    { bottom: 0.5rem; right: 0.5rem; height: 80px;  transform: rotate(5deg); }
+.hk-deco--cup       { top: 50%;     right: 0.5rem;  height: 55px;  transform: translateY(-50%) rotate(-8deg); }
+.hk-deco--fries     { bottom: 0.5rem; left: 50%;    height: 90px;  transform: translateX(-50%); }
 
 /* inner layout */
 .hk-body {
@@ -387,8 +382,6 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 3px solid #000;
-  border-radius: 8px;
 }
 
 
