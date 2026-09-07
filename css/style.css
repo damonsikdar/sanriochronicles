@@ -402,14 +402,6 @@ img {
   filter: drop-shadow(2px 3px 0px rgba(0,0,0,0.12));
 }
 
-.hk-plushie-label {
-  font-size: 0.65rem;
-  font-weight: 900;
-  color: #c8102e;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 0.3rem;
-}
 
 /* sticker row */
 .hk-stickers {
