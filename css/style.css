@@ -381,10 +381,9 @@ img {
 
 /* plushie badge */
 .hk-plushie {
-  background: #fff8f0;
-  border: 2.5px dashed #c8102e;
-  border-radius: 14px;
-  padding: 0.6rem 1rem;
+  background: transparent;
+  border: none;
+  padding: 0;
   text-align: center;
   width: 140px;
 }
@@ -431,9 +430,9 @@ img {
 }
 
 #hello-kitty .character-img-placeholder {
-  background: #f0f4ff;
-  border: 3px solid #003087;
-  box-shadow: 4px 4px 0 #c8102e;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 #hello-kitty .character-details strong {
