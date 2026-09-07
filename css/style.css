@@ -337,19 +337,34 @@ img {
   gap: 0;
 }
 
-/* floating decorations — one of each, all in different spots */
-.hk-deco {
-  position: absolute;
-  z-index: 2;
-  pointer-events: none;
+/* decoration strips — above and below content, never over text */
+.hk-top-strip,
+.hk-bottom-strip {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: rgba(200,16,46,0.04);
+  overflow: visible;
 }
 
-.hk-deco--backpack  { top: 0.5rem;  right: 0.75rem; height: 75px;  transform: rotate(8deg); }
-.hk-deco--handbag   { bottom: 0.5rem; left: 0.5rem;  height: 80px;  transform: rotate(-6deg); }
-.hk-deco--sketchpad { top: 0.5rem;  left: 50%;      height: 90px;  transform: translateX(-50%) rotate(-4deg); }
-.hk-deco--makeup    { bottom: 0.5rem; right: 0.5rem; height: 80px;  transform: rotate(5deg); }
-.hk-deco--cup       { top: 50%;     right: 0.5rem;  height: 55px;  transform: translateY(-50%) rotate(-8deg); }
-.hk-deco--fries     { bottom: 0.5rem; left: 50%;    height: 90px;  transform: translateX(-50%); }
+.hk-top-strip {
+  border-bottom: 2px dashed rgba(200,16,46,0.2);
+  padding-bottom: 0.25rem;
+}
+
+.hk-bottom-strip {
+  border-top: 2px dashed rgba(0,48,135,0.2);
+  align-items: flex-start;
+  padding-top: 0.25rem;
+}
+
+.hk-strip-item {
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
 
 /* inner layout */
 .hk-body {

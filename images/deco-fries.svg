@@ -1,43 +1,171 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 150" width="120" height="150">
-  <!-- fries sticking up -->
-  <!-- fry 1 -->
-  <rect x="28" y="18" width="11" height="58" rx="5" fill="#f9c02e" transform="rotate(-8 33 47)"/>
-  <rect x="29" y="18" width="5" height="20" rx="3" fill="#ffd84d" opacity="0.7" transform="rotate(-8 33 47)"/>
-  <!-- fry 2 -->
-  <rect x="42" y="10" width="11" height="66" rx="5" fill="#f5b820"/>
-  <rect x="43" y="10" width="5" height="22" rx="3" fill="#ffd84d" opacity="0.7"/>
-  <!-- fry 3 -->
-  <rect x="56" y="14" width="11" height="62" rx="5" fill="#f9c02e" transform="rotate(5 61 45)"/>
-  <rect x="57" y="14" width="5" height="20" rx="3" fill="#ffd84d" opacity="0.7" transform="rotate(5 61 45)"/>
-  <!-- fry 4 -->
-  <rect x="70" y="20" width="11" height="56" rx="5" fill="#f5b820" transform="rotate(10 75 48)"/>
-  <rect x="71" y="20" width="5" height="18" rx="3" fill="#ffd84d" opacity="0.7" transform="rotate(10 75 48)"/>
-  <!-- fry 5 (short, behind) -->
-  <rect x="50" y="28" width="9" height="44" rx="4" fill="#e8a800" transform="rotate(-4 54 50)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 210" width="160" height="210">
+  <defs>
+    <linearGradient id="fryGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8a000"/>
+      <stop offset="40%" stop-color="#ffd84d"/>
+      <stop offset="100%" stop-color="#f5b820"/>
+    </linearGradient>
+    <linearGradient id="fryGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d49000"/>
+      <stop offset="40%" stop-color="#fac832"/>
+      <stop offset="100%" stop-color="#e8a800"/>
+    </linearGradient>
+    <linearGradient id="tipBurn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b4500"/>
+      <stop offset="100%" stop-color="#c86010"/>
+    </linearGradient>
+    <linearGradient id="cupGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b0018"/>
+      <stop offset="30%" stop-color="#c8102e"/>
+      <stop offset="70%" stop-color="#c8102e"/>
+      <stop offset="100%" stop-color="#7a000f"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4060"/>
+      <stop offset="100%" stop-color="#8b0018"/>
+    </linearGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-  <!-- container body -->
-  <path d="M18 72 L25 145 L95 145 L102 72 Z" fill="#c8102e"/>
-  <!-- container highlight stripe -->
-  <path d="M26 72 L32 138 L42 138 L36 72 Z" fill="#e8304a" opacity="0.5"/>
-  <!-- container top fold -->
-  <rect x="16" y="65" width="88" height="13" rx="4" fill="#a00020"/>
-  <!-- container rim highlight -->
-  <rect x="16" y="65" width="88" height="5" rx="3" fill="#d01030"/>
+  <!-- ── FRIES ───────────────────────────────────── -->
 
-  <!-- Hello Kitty bow on container -->
-  <ellipse cx="50" cy="68" rx="9" ry="6" fill="#ff6680" transform="rotate(-25 50 68)"/>
-  <ellipse cx="50" cy="68" rx="6" ry="4" fill="#ffaaaa" transform="rotate(-25 50 68)"/>
-  <ellipse cx="63" cy="68" rx="9" ry="6" fill="#ff6680" transform="rotate(25 63 68)"/>
-  <ellipse cx="63" cy="68" rx="6" ry="4" fill="#ffaaaa" transform="rotate(25 63 68)"/>
-  <ellipse cx="56" cy="69" rx="5" ry="4" fill="#e84060"/>
-  <ellipse cx="56" cy="69" rx="3" ry="2.5" fill="#ff6680"/>
+  <!-- fry A - far left, tall, leaning left -->
+  <g transform="rotate(-14 38 80)">
+    <rect x="26" y="6" width="13" height="78" rx="6" fill="url(#fryGrad2)"/>
+    <rect x="26" y="6" width="13" height="12" rx="6" fill="url(#tipBurn)"/>
+    <rect x="28" y="18" width="5" height="52" rx="3" fill="#fde878" opacity="0.45"/>
+    <rect x="26" y="6" width="13" height="5" rx="3" fill="#5a2800" opacity="0.4"/>
+  </g>
 
-  <!-- spicy pepper flakes on fries -->
-  <circle cx="36" cy="30" r="2.5" fill="#c8102e"/>
-  <circle cx="55" cy="22" r="2" fill="#e03020"/>
-  <circle cx="70" cy="35" r="2.5" fill="#c8102e"/>
-  <circle cx="45" cy="40" r="1.8" fill="#e03020"/>
-  <circle cx="62" cy="28" r="2" fill="#c8102e"/>
-  <circle cx="32" cy="45" r="1.5" fill="#e03020"/>
+  <!-- fry B - left-center, straight tall -->
+  <g transform="rotate(-4 52 75)">
+    <rect x="44" y="2" width="14" height="84" rx="6" fill="url(#fryGrad1)"/>
+    <rect x="44" y="2" width="14" height="14" rx="6" fill="url(#tipBurn)"/>
+    <rect x="46" y="16" width="5" height="56" rx="3" fill="#fde878" opacity="0.5"/>
+    <rect x="44" y="2" width="14" height="5" rx="3" fill="#5a2800" opacity="0.35"/>
+  </g>
 
+  <!-- fry C - center, slightly right lean -->
+  <g transform="rotate(6 72 75)">
+    <rect x="62" y="5" width="13" height="80" rx="6" fill="url(#fryGrad2)"/>
+    <rect x="62" y="5" width="13" height="13" rx="6" fill="url(#tipBurn)"/>
+    <rect x="64" y="18" width="5" height="52" rx="3" fill="#fde878" opacity="0.4"/>
+  </g>
+
+  <!-- fry D - right-center, taller -->
+  <g transform="rotate(3 88 78)">
+    <rect x="79" y="0" width="14" height="86" rx="6" fill="url(#fryGrad1)"/>
+    <rect x="79" y="0" width="14" height="14" rx="6" fill="url(#tipBurn)"/>
+    <rect x="81" y="15" width="5" height="58" rx="3" fill="#fde878" opacity="0.5"/>
+    <rect x="79" y="0" width="14" height="6" rx="3" fill="#5a2800" opacity="0.3"/>
+  </g>
+
+  <!-- fry E - far right, leaning right -->
+  <g transform="rotate(15 104 80)">
+    <rect x="95" y="8" width="12" height="74" rx="6" fill="url(#fryGrad2)"/>
+    <rect x="95" y="8" width="12" height="12" rx="6" fill="url(#tipBurn)"/>
+    <rect x="97" y="20" width="4" height="48" rx="2" fill="#fde878" opacity="0.45"/>
+  </g>
+
+  <!-- fry F - short hidden behind, center-left -->
+  <g transform="rotate(-6 60 78)">
+    <rect x="53" y="20" width="10" height="62" rx="5" fill="#d49000"/>
+    <rect x="53" y="20" width="10" height="10" rx="5" fill="#7a3800"/>
+    <rect x="55" y="30" width="4" height="40" rx="2" fill="#f0c030" opacity="0.35"/>
+  </g>
+
+  <!-- ── SPICY ELEMENTS ─────────────────────────── -->
+
+  <!-- chili pepper 1 - floating top left -->
+  <g transform="translate(15 12) rotate(-30)">
+    <ellipse cx="0" cy="0" rx="4" ry="10" fill="#e81020"/>
+    <ellipse cx="0" cy="-6" rx="2.5" ry="4" fill="#ff4040"/>
+    <path d="M0 -10 Q4 -16 2 -20" stroke="#2a8000" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="8" rx="2" ry="3" fill="#a00010"/>
+  </g>
+
+  <!-- chili pepper 2 - top right -->
+  <g transform="translate(138 18) rotate(25)">
+    <ellipse cx="0" cy="0" rx="3.5" ry="9" fill="#c80010"/>
+    <ellipse cx="0" cy="-5" rx="2" ry="3.5" fill="#ff3030"/>
+    <path d="M0 -9 Q-3 -14 -1 -18" stroke="#2a8000" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="7" rx="1.8" ry="2.5" fill="#900010"/>
+  </g>
+
+  <!-- heat waves above fries -->
+  <path d="M50 4 Q53 0 56 4 Q59 8 62 4" stroke="#ff8000" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M72 2 Q75 -2 78 2 Q81 6 84 2" stroke="#ff6000" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M36 8 Q38 4 40 8" stroke="#ff9000" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- spice flakes / pepper bits -->
+  <circle cx="42" cy="32" r="2.2" fill="#c8102e"/>
+  <circle cx="78" cy="22" r="1.8" fill="#e03020"/>
+  <circle cx="96" cy="40" r="2" fill="#c8102e"/>
+  <circle cx="30" cy="48" r="1.5" fill="#ff4020"/>
+  <circle cx="64" cy="16" r="1.8" fill="#c81020"/>
+  <!-- irregular spice shapes -->
+  <ellipse cx="55" cy="42" rx="2.5" ry="1.5" fill="#e03020" transform="rotate(30 55 42)"/>
+  <ellipse cx="88" cy="30" rx="2" ry="1.2" fill="#c8102e" transform="rotate(-20 88 30)"/>
+
+  <!-- ── CUP / HOLDER ───────────────────────────── -->
+
+  <!-- cup shadow -->
+  <ellipse cx="80" cy="206" rx="48" ry="6" fill="#00000022"/>
+
+  <!-- cup outer body (trapezoid) -->
+  <path d="M22 88 L30 200 L130 200 L138 88 Z" fill="url(#cupGrad)"/>
+
+  <!-- paper texture lines -->
+  <line x1="25" y1="110" x2="132" y2="110" stroke="#ffffff" stroke-width="0.8" opacity="0.15"/>
+  <line x1="24" y1="130" x2="133" y2="130" stroke="#ffffff" stroke-width="0.8" opacity="0.15"/>
+  <line x1="23" y1="150" x2="134" y2="150" stroke="#ffffff" stroke-width="0.8" opacity="0.15"/>
+  <line x1="23" y1="170" x2="135" y2="170" stroke="#ffffff" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- white diagonal stripes (classic fast-food cup) -->
+  <path d="M30 88 L38 200 L48 200 L40 88 Z" fill="#ffffff" opacity="0.12"/>
+  <path d="M60 88 L66 200 L76 200 L70 88 Z" fill="#ffffff" opacity="0.10"/>
+  <path d="M100 88 L104 200 L114 200 L110 88 Z" fill="#ffffff" opacity="0.10"/>
+
+  <!-- side shadow left -->
+  <path d="M22 88 L30 200 L40 200 L32 88 Z" fill="#000000" opacity="0.18"/>
+  <!-- side shadow right -->
+  <path d="M128 88 L120 200 L130 200 L138 88 Z" fill="#000000" opacity="0.18"/>
+
+  <!-- bottom base -->
+  <ellipse cx="80" cy="200" rx="50" ry="5" fill="#7a000f"/>
+  <ellipse cx="80" cy="199" rx="50" ry="4" fill="#a00018"/>
+
+  <!-- cup rim / fold at top -->
+  <path d="M20 86 L140 86 L138 88 L22 88 Z" fill="#ff4060"/>
+  <path d="M18 82 Q80 78 142 82 L140 86 L20 86 Z" fill="url(#rimGrad)"/>
+  <!-- rim highlight -->
+  <path d="M20 82 Q80 79 140 82" stroke="#ff8090" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- rim inner fold shadow -->
+  <path d="M22 88 Q80 91 138 88" stroke="#5a0010" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Hello Kitty bow on cup -->
+  <!-- left loop -->
+  <ellipse cx="65" cy="140" rx="13" ry="9" fill="#ff3355" transform="rotate(-20 65 140)"/>
+  <ellipse cx="65" cy="140" rx="9" ry="6" fill="#ff6680" transform="rotate(-20 65 140)"/>
+  <!-- right loop -->
+  <ellipse cx="95" cy="140" rx="13" ry="9" fill="#ff3355" transform="rotate(20 95 140)"/>
+  <ellipse cx="95" cy="140" rx="9" ry="6" fill="#ff6680" transform="rotate(20 95 140)"/>
+  <!-- knot -->
+  <ellipse cx="80" cy="142" rx="8" ry="7" fill="#c8102e"/>
+  <ellipse cx="80" cy="142" rx="5" ry="4.5" fill="#e82040"/>
+  <!-- bow shine -->
+  <ellipse cx="77" cy="139" rx="2" ry="1.5" fill="#ff9aaa" opacity="0.7"/>
+
+  <!-- small stars decoration on cup -->
+  <text x="45" y="120" font-family="Arial" font-size="10" fill="#ffffff" opacity="0.3">★</text>
+  <text x="105" y="120" font-family="Arial" font-size="10" fill="#ffffff" opacity="0.3">★</text>
+  <text x="75" y="190" font-family="Arial" font-size="8" fill="#ffffff" opacity="0.2">★</text>
+
+  <!-- spice specks on cup -->
+  <circle cx="50" cy="165" r="1.5" fill="#ff6040" opacity="0.5"/>
+  <circle cx="110" cy="155" r="1.5" fill="#ff6040" opacity="0.5"/>
+  <circle cx="65" cy="180" r="1.2" fill="#ff5030" opacity="0.4"/>
 </svg>
