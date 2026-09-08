@@ -380,6 +380,14 @@ img {
   z-index: 2;
 }
 
+/* burger sits below the portrait */
+.hk-deco-burger {
+  width: 130px;
+  height: auto;
+  display: block;
+  margin-top: 0.5rem;
+}
+
 /* items group floats bottom-right of card, diagonal */
 .hk-deco-items-float {
   position: absolute;
