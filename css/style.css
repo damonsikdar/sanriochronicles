@@ -446,6 +446,18 @@ img {
   box-shadow: 0 6px 28px rgba(155, 89, 182, 0.25);
 }
 
+/* crown peeks above top-left of My Melody's card */
+.mm-deco-crown {
+  position: absolute;
+  top: -26px;
+  left: 24px;
+  height: 70px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Pochacco heart peeks below bottom-right of My Melody's card */
 .mm-deco-pochacco-heart {
   position: absolute;
