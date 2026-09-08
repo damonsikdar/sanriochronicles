@@ -380,6 +380,18 @@ img {
   z-index: 2;
 }
 
+/* plushies float off left edge of My Sweet Piano's card */
+.msp-deco-plushies {
+  position: absolute;
+  top: 50%;
+  left: -65px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* pencil case floats off right edge of My Sweet Piano's card */
 .msp-deco-pencilcase {
   position: absolute;
