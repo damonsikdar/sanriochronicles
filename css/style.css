@@ -380,6 +380,18 @@ img {
   z-index: 2;
 }
 
+/* pencil case floats off right edge of My Sweet Piano's card */
+.msp-deco-pencilcase {
+  position: absolute;
+  top: 50%;
+  right: -55px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* backpack floats in the top-right corner of the card */
 .hk-deco-backpack {
   position: absolute;
