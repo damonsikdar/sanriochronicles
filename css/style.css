@@ -452,6 +452,18 @@ img {
   box-shadow: 0 6px 28px rgba(255, 105, 180, 0.25);
 }
 
+/* chicks peek above the top-left of Pochacco's card */
+.pochacco-deco-chicks {
+  position: absolute;
+  top: -30px;
+  left: 24px;
+  height: 70px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* basketball hoop floats off right edge of Pochacco's card */
 .pochacco-deco-hoop {
   position: absolute;
