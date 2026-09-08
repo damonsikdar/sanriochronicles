@@ -440,6 +440,12 @@ img {
   z-index: 2;
 }
 
+/* Badtz-Maru card — black border */
+#badtz-maru {
+  border: 3px solid #1a1a1a;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.2);
+}
+
 /* Kuromi card — purple border */
 #kuromi {
   border: 3px solid #9b59b6;
