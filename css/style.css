@@ -440,6 +440,18 @@ img {
   z-index: 2;
 }
 
+/* skateboard peeks above top-right of Badtz-Maru's card */
+.bm-deco-skateboard {
+  position: absolute;
+  top: -26px;
+  right: 24px;
+  width: 130px;
+  height: auto;
+  transform: rotate(8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* trading cards peek below bottom-left of Badtz-Maru's card */
 .bm-deco-cards {
   position: absolute;
