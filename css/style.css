@@ -404,14 +404,14 @@ img {
   z-index: 2;
 }
 
-/* locket peeks below bottom-left of Dear Daniel's card */
+/* locket floats off right edge of Dear Daniel's card, mid-height */
 .dd-deco-locket {
   position: absolute;
-  bottom: -32px;
-  left: 28px;
+  top: 50%;
+  right: -52px;
+  transform: translateY(-50%) rotate(8deg);
   height: 90px;
   width: auto;
-  transform: rotate(-8deg);
   pointer-events: none;
   z-index: 2;
 }
