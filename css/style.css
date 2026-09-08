@@ -236,6 +236,23 @@ img {
   margin-bottom: 0.75rem;
 }
 
+.card-img-placeholder.card-toca {
+  width: 120px;
+  height: 160px;
+  margin: 0 auto 0.75rem;
+  background: transparent;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.card-img-placeholder.card-toca img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 0;
+}
+
 .card h3 {
   font-size: 1.1rem;
   font-weight: 700;
@@ -284,6 +301,23 @@ img {
   height: 140px;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
+}
+
+/* Toca Boca full-body illustrations — taller, no circular crop */
+.character-img-placeholder.toca-img {
+  background: transparent;
+  border-radius: var(--radius);
+  width: 160px;
+  height: 220px;
+  overflow: visible;
+}
+
+.character-img-placeholder.toca-img img {
+  width: 160px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 0;
   display: block;
 }
 
