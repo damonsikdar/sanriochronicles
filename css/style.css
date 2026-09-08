@@ -446,6 +446,18 @@ img {
   box-shadow: 0 6px 28px rgba(255, 105, 180, 0.25);
 }
 
+/* basketball hoop floats off right edge of Pochacco's card */
+.pochacco-deco-hoop {
+  position: absolute;
+  top: 50%;
+  right: -52px;
+  transform: translateY(-50%) rotate(6deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Pochacco card — red border */
 #pochacco {
   border: 3px solid #e63946;
