@@ -546,6 +546,18 @@ img {
   box-shadow: 0 6px 28px rgba(46, 196, 182, 0.25);
 }
 
+/* broom floats off right edge of Kuromi's card */
+.kuromi-deco-broom {
+  position: absolute;
+  top: 50%;
+  right: -48px;
+  transform: translateY(-50%) rotate(10deg);
+  height: 130px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* skull floats off left edge of Kuromi's card */
 .kuromi-deco-skull {
   position: absolute;
