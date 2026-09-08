@@ -380,12 +380,17 @@ img {
   z-index: 2;
 }
 
-/* items group sits below the portrait */
-.hk-deco-items {
-  width: 140px;
+/* items group floats bottom-right of card, diagonal */
+.hk-deco-items-float {
+  position: absolute;
+  bottom: -24px;
+  right: -18px;
+  width: 200px;
   height: auto;
-  display: block;
-  margin-top: 0.5rem;
+  transform: rotate(-12deg);
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.92;
 }
 
 /* inner layout */
