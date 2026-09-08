@@ -452,6 +452,18 @@ img {
   box-shadow: 0 6px 28px rgba(255, 105, 180, 0.25);
 }
 
+/* ice cream peeks below bottom-left of Pochacco's card */
+.pochacco-deco-icecream {
+  position: absolute;
+  bottom: -32px;
+  left: 28px;
+  height: 80px;
+  width: auto;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* chicks peek above the top-left of Pochacco's card */
 .pochacco-deco-chicks {
   position: absolute;
