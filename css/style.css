@@ -440,6 +440,18 @@ img {
   z-index: 2;
 }
 
+/* basketball floats off left edge of Badtz-Maru's card */
+.bm-deco-basketball {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* guitar floats off right edge of Badtz-Maru's card */
 .bm-deco-guitar {
   position: absolute;
