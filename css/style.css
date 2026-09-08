@@ -1178,6 +1178,13 @@ img {
 
 /* ── Gallery ─────────────────────────────────────────────── */
 
+.gallery-section-title {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 900;
+  color: var(--pink-dark);
+  margin-bottom: 1.5rem;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
