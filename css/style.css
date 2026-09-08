@@ -546,6 +546,18 @@ img {
   box-shadow: 0 6px 28px rgba(46, 196, 182, 0.25);
 }
 
+/* bat peeks above top-right of Kuromi's card */
+.kuromi-deco-bat {
+  position: absolute;
+  top: -28px;
+  right: 24px;
+  width: 120px;
+  height: auto;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* potion peeks below bottom-left of Kuromi's card */
 .kuromi-deco-potion {
   position: absolute;
