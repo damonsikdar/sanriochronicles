@@ -1271,6 +1271,15 @@ img {
   object-fit: cover;
 }
 
+.outfits-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 280px));
+}
+
+.outfits-grid img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
 .gallery-section-title {
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 900;
