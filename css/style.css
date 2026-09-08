@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* chibi floats off right edge of Pompompurin's card */
+.purin-deco-chibi {
+  position: absolute;
+  top: 50%;
+  right: -52px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* roll cake peeks below bottom-left of Pompompurin's card */
 .purin-deco-rollcake {
   position: absolute;
