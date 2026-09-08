@@ -546,6 +546,18 @@ img {
   box-shadow: 0 6px 28px rgba(46, 196, 182, 0.25);
 }
 
+/* skull floats off left edge of Kuromi's card */
+.kuromi-deco-skull {
+  position: absolute;
+  top: 50%;
+  left: -48px;
+  transform: translateY(-50%) rotate(-10deg);
+  height: 90px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Kuromi card — purple border */
 #kuromi {
   border: 3px solid #9b59b6;
