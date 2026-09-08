@@ -534,6 +534,22 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* Z z z floats above top-right of Pompompurin's card */
+.purin-zzz {
+  position: absolute;
+  top: -22px;
+  right: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #f5c400;
+  letter-spacing: 4px;
+  transform: rotate(8deg);
+  pointer-events: none;
+  z-index: 2;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
+}
+
 /* Pompompurin card — yellow border */
 #pompompurin {
   border: 3px solid #f5c400;
