@@ -540,6 +540,18 @@ img {
   box-shadow: 0 6px 28px rgba(245, 196, 0, 0.3);
 }
 
+/* muffin peeks above top-right of Cinnamoroll's card */
+.cinn-deco-muffin {
+  position: absolute;
+  top: -28px;
+  right: 24px;
+  height: 85px;
+  width: auto;
+  transform: rotate(7deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* cake peeks below bottom-right of Cinnamoroll's card */
 .cinn-deco-cake {
   position: absolute;
