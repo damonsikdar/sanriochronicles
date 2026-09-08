@@ -649,6 +649,42 @@ img {
   height: 330px;
 }
 
+/* sewing kit floats off left edge of Tuxedosam's card */
+.sam-deco-sewingkit {
+  position: absolute;
+  top: 50%;
+  left: -56px;
+  transform: translateY(-50%) rotate(-6deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* sunglasses peek above top-right of Tuxedosam's card */
+.sam-deco-sunglasses {
+  position: absolute;
+  top: -28px;
+  right: 24px;
+  height: 75px;
+  width: auto;
+  transform: rotate(8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* outfits peek below bottom-right of Tuxedosam's card */
+.sam-deco-outfits {
+  position: absolute;
+  bottom: -28px;
+  right: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(4deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* duck floats off left edge of Wish Me Mell's card */
 .mell-deco-duck {
   position: absolute;
