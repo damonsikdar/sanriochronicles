@@ -440,6 +440,18 @@ img {
   z-index: 2;
 }
 
+/* chibi peeks above top-left of Badtz-Maru's card */
+.bm-deco-chibi {
+  position: absolute;
+  top: -30px;
+  left: 24px;
+  height: 85px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* basketball floats off left edge of Badtz-Maru's card */
 .bm-deco-basketball {
   position: absolute;
