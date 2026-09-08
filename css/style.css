@@ -546,6 +546,18 @@ img {
   z-index: 2;
 }
 
+/* donut peeks above top-center of Pompompurin's card */
+.purin-deco-donut {
+  position: absolute;
+  top: -30px;
+  right: 80px;
+  height: 88px;
+  width: auto;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* boxes peek below bottom-right of Pompompurin's card */
 .purin-deco-boxes {
   position: absolute;
