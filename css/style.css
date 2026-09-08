@@ -480,6 +480,12 @@ img {
   height: 330px;
 }
 
+/* Pompompurin card — yellow border */
+#pompompurin {
+  border: 3px solid #f5c400;
+  box-shadow: 0 6px 28px rgba(245, 196, 0, 0.3);
+}
+
 /* Cinnamoroll card — teal border */
 #cinnamoroll {
   border: 3px solid #2ec4b6;
