@@ -368,16 +368,16 @@ img {
   overflow: visible;
 }
 
-/* notebook floats top-right of Featured Characters section */
+/* notebook floats above top-right of Featured Characters section */
 .feat-deco-notebook {
   position: absolute;
-  top: 10px;
-  right: 24px;
+  top: -55px;
+  right: 40px;
   height: 110px;
   width: auto;
   transform: rotate(10deg);
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
   opacity: 0.88;
 }
 
