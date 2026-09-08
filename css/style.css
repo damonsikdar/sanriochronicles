@@ -452,6 +452,18 @@ img {
   box-shadow: 0 6px 28px rgba(255, 105, 180, 0.25);
 }
 
+/* basketball floats off left edge of Pochacco's card */
+.pochacco-deco-basketball {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 78px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* soccer ball peeks below bottom-right of Pochacco's card */
 .pochacco-deco-soccer {
   position: absolute;
