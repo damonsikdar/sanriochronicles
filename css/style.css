@@ -456,6 +456,12 @@ img {
   height: 275px;
 }
 
+/* Cinnamoroll card — teal border */
+#cinnamoroll {
+  border: 3px solid #2ec4b6;
+  box-shadow: 0 6px 28px rgba(46, 196, 182, 0.25);
+}
+
 /* Kuromi card — purple border */
 #kuromi {
   border: 3px solid #9b59b6;
