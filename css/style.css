@@ -1178,6 +1178,15 @@ img {
 
 /* ── Gallery ─────────────────────────────────────────────── */
 
+.manga-grid {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 240px));
+}
+
+.manga-grid img {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
 .gallery-section-title {
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 900;
