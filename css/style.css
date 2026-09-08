@@ -380,6 +380,18 @@ img {
   z-index: 2;
 }
 
+/* art prints scattered around My Sweet Piano's card */
+.msp-art {
+  position: absolute;
+  height: 72px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+.msp-art1 { top: -28px; left: 180px; transform: rotate(-6deg); }
+.msp-art2 { bottom: -28px; left: 50%; transform: translateX(-50%) rotate(4deg); }
+.msp-art3 { top: -28px; right: 180px; transform: rotate(7deg); }
+
 /* plushies peek above top-left of My Sweet Piano's card */
 .msp-deco-plushies {
   position: absolute;
