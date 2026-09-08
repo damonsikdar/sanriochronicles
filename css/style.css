@@ -440,6 +440,18 @@ img {
   z-index: 2;
 }
 
+/* controller peeks below bottom-right of Badtz-Maru's card */
+.bm-deco-controller {
+  position: absolute;
+  bottom: -28px;
+  right: 28px;
+  height: 90px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* chibi peeks above top-left of Badtz-Maru's card */
 .bm-deco-chibi {
   position: absolute;
