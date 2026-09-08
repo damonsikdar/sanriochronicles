@@ -440,6 +440,12 @@ img {
   z-index: 2;
 }
 
+/* Pochacco card — red border */
+#pochacco {
+  border: 3px solid #e63946;
+  box-shadow: 0 6px 28px rgba(230, 57, 70, 0.2);
+}
+
 /* Dear Daniel card — sky blue border */
 #dear-daniel {
   border: 3px solid #87ceeb;
