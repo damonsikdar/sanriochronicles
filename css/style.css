@@ -440,6 +440,18 @@ img {
   z-index: 2;
 }
 
+/* guitar floats off right edge of Badtz-Maru's card */
+.bm-deco-guitar {
+  position: absolute;
+  top: 50%;
+  right: -52px;
+  transform: translateY(-50%) rotate(10deg);
+  height: 120px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Badtz-Maru card — black border */
 #badtz-maru {
   border: 3px solid #1a1a1a;
