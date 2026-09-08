@@ -368,16 +368,17 @@ img {
   overflow: visible;
 }
 
-/* notebook floats top-left corner */
-.hk-deco-notebook {
+/* notebook floats top-right of Featured Characters section */
+.feat-deco-notebook {
   position: absolute;
-  top: -22px;
-  left: 14px;
-  height: 95px;
+  top: 10px;
+  right: 24px;
+  height: 110px;
   width: auto;
-  transform: rotate(-10deg);
+  transform: rotate(10deg);
   pointer-events: none;
-  z-index: 2;
+  z-index: 0;
+  opacity: 0.88;
 }
 
 /* backpack floats in the top-right corner of the card */
