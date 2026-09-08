@@ -452,6 +452,18 @@ img {
   box-shadow: 0 6px 28px rgba(255, 105, 180, 0.25);
 }
 
+/* soccer ball peeks below bottom-right of Pochacco's card */
+.pochacco-deco-soccer {
+  position: absolute;
+  bottom: -32px;
+  right: 28px;
+  height: 78px;
+  width: auto;
+  transform: rotate(10deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* ice cream peeks below bottom-left of Pochacco's card */
 .pochacco-deco-icecream {
   position: absolute;
