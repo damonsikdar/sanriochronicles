@@ -392,6 +392,18 @@ img {
 .msp-art2 { bottom: -28px; left: 50%; transform: translateX(-50%) rotate(4deg); }
 .msp-art3 { top: -28px; right: 180px; transform: rotate(7deg); }
 
+/* blue fedora peeks below bottom-right of Dear Daniel's card */
+.dd-deco-hat {
+  position: absolute;
+  bottom: -28px;
+  right: 28px;
+  height: 80px;
+  width: auto;
+  transform: rotate(10deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* locket peeks below bottom-left of Dear Daniel's card */
 .dd-deco-locket {
   position: absolute;
