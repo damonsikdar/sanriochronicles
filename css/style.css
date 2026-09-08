@@ -546,6 +546,18 @@ img {
   box-shadow: 0 6px 28px rgba(46, 196, 182, 0.25);
 }
 
+/* potion peeks below bottom-left of Kuromi's card */
+.kuromi-deco-potion {
+  position: absolute;
+  bottom: -30px;
+  left: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* chibi peeks below bottom-right of Kuromi's card */
 .kuromi-deco-chibi {
   position: absolute;
