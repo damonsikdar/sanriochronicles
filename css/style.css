@@ -392,6 +392,12 @@ img {
 .msp-art2 { bottom: -28px; left: 50%; transform: translateX(-50%) rotate(4deg); }
 .msp-art3 { top: -28px; right: 180px; transform: rotate(7deg); }
 
+/* Dear Daniel card — sky blue border */
+#dear-daniel {
+  border: 3px solid #87ceeb;
+  box-shadow: 0 6px 28px rgba(135, 206, 235, 0.3);
+}
+
 /* My Sweet Piano card — light pink border */
 #my-sweet-piano {
   border: 3px solid #ffb6c1;
