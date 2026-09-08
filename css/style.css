@@ -100,8 +100,15 @@ img {
 /* ── Hero ────────────────────────────────────────────────── */
 
 .hero {
-  background: linear-gradient(135deg, var(--pink-light) 0%, var(--lavender) 50%, var(--mint) 100%);
-  padding: 6rem 1.5rem;
+  background-image: url('../images/hero-banner.png');
+  background-size: cover;
+  background-position: center top;
+  aspect-ratio: 1983 / 793;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 6%;
   text-align: center;
 }
 
@@ -111,17 +118,11 @@ img {
 }
 
 .hero h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  font-weight: 900;
-  color: var(--pink-dark);
-  margin-bottom: 1rem;
-  line-height: 1.2;
+  display: none;
 }
 
 .hero-subtitle {
-  font-size: 1.15rem;
-  color: var(--text-muted);
-  margin-bottom: 2rem;
+  display: none;
 }
 
 /* ── Page Hero (inner pages) ─────────────────────────────── */
