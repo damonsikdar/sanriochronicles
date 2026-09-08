@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* backpack floats off right edge of Keroppi's card */
+.kero-deco-backpack {
+  position: absolute;
+  top: 50%;
+  right: -52px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* mug peeks below bottom-right of Keroppi's card */
 .kero-deco-mug {
   position: absolute;
