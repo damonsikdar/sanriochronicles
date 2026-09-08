@@ -365,73 +365,42 @@ img {
   border: 3px solid #003087;
   box-shadow: 0 6px 28px rgba(200, 16, 46, 0.18);
   position: relative;
-  overflow: hidden;
-  padding: 0;
-  flex-direction: column;
-  gap: 0;
-}
-
-/* decoration strips — above and below content, never over text */
-.hk-top-strip,
-.hk-bottom-strip {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  gap: 1rem;
-  padding: 0.5rem 1.5rem;
-  background: rgba(200,16,46,0.04);
   overflow: visible;
 }
 
-.hk-top-strip {
-  border-bottom: 2px dashed rgba(200,16,46,0.2);
-  padding-bottom: 0.25rem;
-}
-
-.hk-bottom-strip {
-  border-top: 2px dashed rgba(0,48,135,0.2);
-  align-items: flex-start;
-  padding-top: 0.25rem;
-}
-
-.hk-strip-item {
+/* backpack floats in the top-right corner of the card */
+.hk-deco-backpack {
+  position: absolute;
+  top: -18px;
+  right: 18px;
+  height: 80px;
   width: auto;
+  transform: rotate(12deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* items group sits below the portrait */
+.hk-deco-items {
+  width: 140px;
+  height: auto;
   display: block;
-  flex-shrink: 0;
+  margin-top: 0.5rem;
 }
 
 /* inner layout */
 .hk-body {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
   align-items: flex-start;
 }
 
-/* left column: photo + plushie */
+/* left column: photo + items */
 .hk-left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
   flex-shrink: 0;
-}
-
-/* plushie badge */
-.hk-plushie {
-  background: transparent;
-  border: none;
-  padding: 0;
-  text-align: center;
-  width: 140px;
-}
-
-.hk-plushie-img {
-  width: 160px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  transform: rotate(-15deg);
 }
 
 
