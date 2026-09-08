@@ -392,6 +392,18 @@ img {
 .msp-art2 { bottom: -28px; left: 50%; transform: translateX(-50%) rotate(4deg); }
 .msp-art3 { top: -28px; right: 180px; transform: rotate(7deg); }
 
+/* paint palette peeks below bottom-right of MSP's card */
+.msp-deco-palette {
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+  height: 80px;
+  width: auto;
+  transform: rotate(10deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* plushies peek above top-left of My Sweet Piano's card */
 .msp-deco-plushies {
   position: absolute;
