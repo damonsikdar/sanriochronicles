@@ -368,14 +368,14 @@ img {
   overflow: visible;
 }
 
-/* notebook floats top-left of HK card, above the portrait */
+/* notebook floats off the left edge of HK card, mid-height */
 .hk-deco-notebook {
   position: absolute;
-  top: -22px;
-  left: 14px;
+  top: 50%;
+  left: -55px;
+  transform: translateY(-50%) rotate(-12deg);
   height: 95px;
   width: auto;
-  transform: rotate(-10deg);
   pointer-events: none;
   z-index: 2;
 }
