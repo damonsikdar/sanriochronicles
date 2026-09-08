@@ -619,6 +619,11 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+#wish-me-mell {
+  border: 3px solid #f5e27a;
+  box-shadow: 0 6px 28px rgba(245, 226, 122, 0.35);
+}
+
 /* plant peeks above top-center of Keroppi's card */
 .kero-deco-plant {
   position: absolute;
