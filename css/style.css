@@ -540,6 +540,18 @@ img {
   box-shadow: 0 6px 28px rgba(245, 196, 0, 0.3);
 }
 
+/* stars float off right edge of Cinnamoroll's card */
+.cinn-deco-stars {
+  position: absolute;
+  top: 50%;
+  right: -55px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 130px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Cinnamoroll card — teal border */
 #cinnamoroll {
   border: 3px solid #2ec4b6;
