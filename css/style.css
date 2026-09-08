@@ -446,6 +446,18 @@ img {
   box-shadow: 0 6px 28px rgba(155, 89, 182, 0.25);
 }
 
+/* makeup bag peeks above top-right of My Melody's card */
+.mm-deco-makeupbag {
+  position: absolute;
+  top: -28px;
+  right: 24px;
+  height: 85px;
+  width: auto;
+  transform: rotate(8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* My Melody plushie floats off left edge of her card */
 .mm-deco-plushie {
   position: absolute;
