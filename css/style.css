@@ -446,6 +446,18 @@ img {
   box-shadow: 0 6px 28px rgba(155, 89, 182, 0.25);
 }
 
+/* My Melody plushie floats off left edge of her card */
+.mm-deco-plushie {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 95px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* My Melody card — hot pink border */
 #my-melody {
   border: 3px solid #ff69b4;
