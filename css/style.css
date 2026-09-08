@@ -745,6 +745,17 @@ img {
   background: transparent;
   border: none;
   box-shadow: none;
+  border-radius: 0;
+  width: 160px;
+  height: 220px;
+  overflow: visible;
+}
+
+#hello-kitty .character-img-placeholder img {
+  width: 160px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 0;
 }
 
 #hello-kitty .character-details strong {
