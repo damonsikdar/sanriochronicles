@@ -512,6 +512,18 @@ img {
   z-index: 2;
 }
 
+/* MM laptop floats off right edge of My Melody's card */
+.mm-deco-laptop {
+  position: absolute;
+  top: 50%;
+  right: -68px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* My Melody card — hot pink border */
 #my-melody {
   border: 3px solid #ff69b4;
