@@ -540,6 +540,18 @@ img {
   box-shadow: 0 6px 28px rgba(245, 196, 0, 0.3);
 }
 
+/* boba floats off left edge of Cinnamoroll's card */
+.cinn-deco-boba {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* chibi peeks above top-left of Cinnamoroll's card */
 .cinn-deco-chibi {
   position: absolute;
