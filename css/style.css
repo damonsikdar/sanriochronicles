@@ -392,6 +392,12 @@ img {
 .msp-art2 { bottom: -28px; left: 50%; transform: translateX(-50%) rotate(4deg); }
 .msp-art3 { top: -28px; right: 180px; transform: rotate(7deg); }
 
+/* My Sweet Piano card — light pink border */
+#my-sweet-piano {
+  border: 3px solid #ffb6c1;
+  box-shadow: 0 6px 28px rgba(255, 182, 193, 0.3);
+}
+
 /* paint palette peeks below bottom-right of MSP's card */
 .msp-deco-palette {
   position: absolute;
