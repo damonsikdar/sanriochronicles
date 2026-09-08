@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* mug peeks below bottom-right of Keroppi's card */
+.kero-deco-mug {
+  position: absolute;
+  bottom: -28px;
+  right: 24px;
+  height: 85px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* lily pad peeks below bottom-left of Keroppi's card */
 .kero-deco-lilypad {
   position: absolute;
