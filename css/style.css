@@ -624,6 +624,54 @@ img {
   box-shadow: 0 6px 28px rgba(245, 226, 122, 0.35);
 }
 
+/* duck floats off left edge of Wish Me Mell's card */
+.mell-deco-duck {
+  position: absolute;
+  top: 50%;
+  left: -56px;
+  transform: translateY(-50%) rotate(-6deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* basket peeks above top-left of Wish Me Mell's card */
+.mell-deco-basket {
+  position: absolute;
+  top: -28px;
+  left: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* watering can peeks above top-right of Wish Me Mell's card */
+.mell-deco-wateringcan {
+  position: absolute;
+  top: -28px;
+  right: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* bouquet floats off right edge of Wish Me Mell's card */
+.mell-deco-bouquet {
+  position: absolute;
+  top: 50%;
+  right: -56px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* plant peeks above top-center of Keroppi's card */
 .kero-deco-plant {
   position: absolute;
