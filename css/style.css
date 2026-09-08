@@ -673,14 +673,38 @@ img {
   z-index: 2;
 }
 
-/* outfits peek below bottom-right of Tuxedosam's card */
-.sam-deco-outfits {
+/* vest peeks above top-left of Tuxedosam's card */
+.sam-deco-vest {
+  position: absolute;
+  top: -28px;
+  left: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(-7deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* fur coat peeks below bottom-left of Tuxedosam's card */
+.sam-deco-furcoat {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* gold tuxedo peeks below bottom-right of Tuxedosam's card */
+.sam-deco-tuxedo {
   position: absolute;
   bottom: -28px;
   right: 24px;
   height: 88px;
   width: auto;
-  transform: rotate(4deg);
+  transform: rotate(5deg);
   pointer-events: none;
   z-index: 2;
 }
