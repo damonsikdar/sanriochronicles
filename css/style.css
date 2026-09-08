@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* pudding floats off left edge of Pompompurin's card */
+.purin-deco-pudding {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Z z z floats above top-right of Pompompurin's card */
 .purin-zzz {
   position: absolute;
