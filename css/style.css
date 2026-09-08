@@ -392,6 +392,18 @@ img {
 .msp-art2 { bottom: -28px; left: 50%; transform: translateX(-50%) rotate(4deg); }
 .msp-art3 { top: -28px; right: 180px; transform: rotate(7deg); }
 
+/* locket peeks below bottom-left of Dear Daniel's card */
+.dd-deco-locket {
+  position: absolute;
+  bottom: -32px;
+  left: 28px;
+  height: 90px;
+  width: auto;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* laptop floats off left edge of Dear Daniel's card */
 .dd-deco-laptop {
   position: absolute;
