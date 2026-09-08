@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* roll cake peeks below bottom-left of Pompompurin's card */
+.purin-deco-rollcake {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* pudding floats off left edge of Pompompurin's card */
 .purin-deco-pudding {
   position: absolute;
