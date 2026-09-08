@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* chibi floats off left edge of Keroppi's card */
+.kero-deco-chibi {
+  position: absolute;
+  top: 50%;
+  left: -56px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* backpack peeks above top-left of Pompompurin's card */
 .purin-deco-backpack {
   position: absolute;
