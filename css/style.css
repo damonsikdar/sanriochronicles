@@ -629,6 +629,16 @@ img {
   box-shadow: 0 6px 28px rgba(126, 232, 224, 0.3);
 }
 
+#tuxedosam .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#tuxedosam .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
 /* duck floats off left edge of Wish Me Mell's card */
 .mell-deco-duck {
   position: absolute;
