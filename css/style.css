@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* note peeks above top-left of Keroppi's card */
+.kero-deco-note {
+  position: absolute;
+  top: -28px;
+  left: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* chibi floats off left edge of Keroppi's card */
 .kero-deco-chibi {
   position: absolute;
