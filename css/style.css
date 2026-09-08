@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* plant peeks above top-center of Keroppi's card */
+.kero-deco-plant {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%) rotate(4deg);
+  height: 92px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* backpack floats off right edge of Keroppi's card */
 .kero-deco-backpack {
   position: absolute;
