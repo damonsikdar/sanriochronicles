@@ -534,6 +534,18 @@ img {
   box-shadow: 0 6px 28px rgba(76, 175, 80, 0.25);
 }
 
+/* boxes peek below bottom-right of Pompompurin's card */
+.purin-deco-boxes {
+  position: absolute;
+  bottom: -28px;
+  right: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* chibi floats off right edge of Pompompurin's card */
 .purin-deco-chibi {
   position: absolute;
