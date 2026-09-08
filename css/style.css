@@ -440,6 +440,12 @@ img {
   z-index: 2;
 }
 
+/* Kuromi card — purple border */
+#kuromi {
+  border: 3px solid #9b59b6;
+  box-shadow: 0 6px 28px rgba(155, 89, 182, 0.25);
+}
+
 /* My Melody card — hot pink border */
 #my-melody {
   border: 3px solid #ff69b4;
