@@ -1425,6 +1425,14 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.limited-edition-title {
+  color: #b8860b;
+  background: linear-gradient(90deg, #c8960c, #ffd700, #b8860b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
