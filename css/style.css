@@ -1437,14 +1437,14 @@ img {
   }
 }
 
-/* bunny floats off right edge of Mocha's card */
+/* bunny peeks below bottom-left of Mocha's card */
 .mocha-deco-bunny {
   position: absolute;
-  top: 50%;
-  right: -60px;
-  transform: translateY(-50%) rotate(6deg);
-  height: 110px;
+  bottom: -32px;
+  left: 28px;
+  height: 90px;
   width: auto;
+  transform: rotate(-6deg);
   pointer-events: none;
   z-index: 2;
   mix-blend-mode: multiply;
