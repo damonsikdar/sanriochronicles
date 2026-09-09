@@ -1422,6 +1422,14 @@ img {
   object-fit: cover;
 }
 
+.outfit-character-title {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--pink-dark);
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
 .outfits-grid {
   grid-template-columns: repeat(auto-fill, minmax(220px, 280px));
 }
