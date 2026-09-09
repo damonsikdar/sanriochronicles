@@ -1437,6 +1437,19 @@ img {
   }
 }
 
+/* sunglasses peek above top-left of Mocha's card */
+.mocha-deco-sunglasses {
+  position: absolute;
+  top: -26px;
+  left: 24px;
+  height: 70px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
 /* dog peeks below bottom-right of Mocha's card */
 .mocha-deco-dog {
   position: absolute;
