@@ -1435,11 +1435,7 @@ img {
 }
 
 .limited-edition-title {
-  color: #b8860b;
-  background: linear-gradient(90deg, #c8960c, #ffd700, #b8860b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #c9900c !important;
 }
 
 .gallery-grid {
