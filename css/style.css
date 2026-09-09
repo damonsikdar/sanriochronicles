@@ -1439,6 +1439,29 @@ img {
   object-fit: cover;
 }
 
+.outfit-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.outfit-figure img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.outfit-figure figcaption {
+  background: var(--pink-dark);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0 0 12px 12px;
+}
+
 .gallery-section-title {
   font-size: clamp(1.4rem, 3vw, 2rem);
   font-weight: 900;
