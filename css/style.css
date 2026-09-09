@@ -1409,6 +1409,15 @@ img {
   object-fit: cover;
 }
 
+.posters-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 280px));
+}
+
+.posters-grid img {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
 .outfits-grid {
   grid-template-columns: repeat(auto-fill, minmax(220px, 280px));
 }
