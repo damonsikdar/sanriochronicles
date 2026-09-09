@@ -1437,6 +1437,19 @@ img {
   }
 }
 
+/* star sunglasses float off right edge of Mocha's card */
+.mocha-deco-sunglasses2 {
+  position: absolute;
+  top: 50%;
+  right: -58px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 80px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
 /* sunglasses peek above top-left of Mocha's card */
 .mocha-deco-sunglasses {
   position: absolute;
