@@ -685,6 +685,7 @@ img {
   width: auto;
   pointer-events: none;
   z-index: 2;
+  mix-blend-mode: multiply;
 }
 
 /* sewing kit floats off left edge of Tuxedosam's card */
