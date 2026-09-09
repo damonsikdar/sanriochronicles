@@ -1443,6 +1443,16 @@ img {
   box-shadow: 0 6px 28px rgba(255, 138, 138, 0.25);
 }
 
+#mocha .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#mocha .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
 /* ── Gallery ─────────────────────────────────────────────── */
 
 .manga-grid {
