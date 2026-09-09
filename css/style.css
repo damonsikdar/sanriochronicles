@@ -1437,6 +1437,19 @@ img {
   }
 }
 
+/* phone floats off left edge of Mocha's card */
+.mocha-deco-phone {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
 /* dino peeks above top-right of Mocha's card */
 .mocha-deco-dino {
   position: absolute;
