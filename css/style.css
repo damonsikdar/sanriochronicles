@@ -229,6 +229,13 @@ img {
   font-size: 1.1rem;
 }
 
+.characters-hero-img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
 /* ── Buttons ─────────────────────────────────────────────── */
 
 .btn {
