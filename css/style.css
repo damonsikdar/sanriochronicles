@@ -356,6 +356,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  overflow: visible;
 }
 
 .character-card {
@@ -637,6 +638,9 @@ img {
 #tuxedosam {
   border: 3px solid #7ee8e0;
   box-shadow: 0 6px 28px rgba(126, 232, 224, 0.3);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: visible !important;
 }
 
 #tuxedosam .character-img-placeholder.toca-img {
