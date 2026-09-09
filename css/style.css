@@ -1437,6 +1437,12 @@ img {
   }
 }
 
+/* Mocha card — light red border */
+#mocha {
+  border: 3px solid #ff8a8a;
+  box-shadow: 0 6px 28px rgba(255, 138, 138, 0.25);
+}
+
 /* ── Gallery ─────────────────────────────────────────────── */
 
 .manga-grid {
