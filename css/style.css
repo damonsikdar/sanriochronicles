@@ -1437,6 +1437,19 @@ img {
   }
 }
 
+/* dog peeks below bottom-right of Mocha's card */
+.mocha-deco-dog {
+  position: absolute;
+  bottom: -30px;
+  right: 28px;
+  height: 90px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
 /* phone floats off left edge of Mocha's card */
 .mocha-deco-phone {
   position: absolute;
