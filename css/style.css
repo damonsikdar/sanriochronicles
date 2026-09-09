@@ -675,6 +675,18 @@ img {
   height: 330px;
 }
 
+/* fan peeks above top-center of Tuxedosam's card */
+.sam-deco-fan {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-8deg);
+  height: 88px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* sewing kit floats off left edge of Tuxedosam's card */
 .sam-deco-sewingkit {
   position: absolute;
