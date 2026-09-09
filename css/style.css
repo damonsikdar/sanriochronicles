@@ -1437,6 +1437,19 @@ img {
   }
 }
 
+/* dino peeks above top-right of Mocha's card */
+.mocha-deco-dino {
+  position: absolute;
+  top: -30px;
+  right: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
 /* bunny peeks below bottom-left of Mocha's card */
 .mocha-deco-bunny {
   position: absolute;
