@@ -1531,6 +1531,61 @@ img {
   height: 330px;
 }
 
+/* Cogimyun card — light purple border */
+#cogimyun {
+  border: 3px solid #c9b1f5;
+  box-shadow: 0 6px 28px rgba(201, 177, 245, 0.3);
+}
+
+#cogimyun .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#cogimyun .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
+/* wand floats off left edge of Cogimyun's card */
+.cogimyun-deco-wand {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  transform: translateY(-50%) rotate(-10deg);
+  height: 120px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
+/* bow peeks above top-right of Cogimyun's card */
+.cogimyun-deco-bow {
+  position: absolute;
+  top: -32px;
+  right: 24px;
+  height: 90px;
+  width: auto;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
+/* chibi peeks below bottom-left of Cogimyun's card */
+.cogimyun-deco-chibi {
+  position: absolute;
+  bottom: -30px;
+  left: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
 /* ── Gallery ─────────────────────────────────────────────── */
 
 .manga-grid {
