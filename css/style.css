@@ -1537,6 +1537,22 @@ img {
   box-shadow: 0 6px 28px rgba(201, 177, 245, 0.3);
 }
 
+/* Macaroon card — hot pink border */
+#macaroon {
+  border: 3px solid #ff69b4;
+  box-shadow: 0 6px 28px rgba(255, 105, 180, 0.3);
+}
+
+#macaroon .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#macaroon .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
 #cogimyun .character-img-placeholder.toca-img {
   width: 240px;
   height: 330px;
