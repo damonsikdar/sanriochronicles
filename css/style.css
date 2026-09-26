@@ -1575,6 +1575,17 @@ img {
   z-index: 2;
 }
 
+.macaroon-deco-snowman {
+  position: absolute;
+  top: -30px;
+  left: 24px;
+  height: 84px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 #cogimyun .character-img-placeholder.toca-img {
   width: 240px;
   height: 330px;
