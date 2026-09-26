@@ -1586,6 +1586,17 @@ img {
   z-index: 2;
 }
 
+.macaroon-deco-desserts {
+  position: absolute;
+  bottom: -26px;
+  right: 24px;
+  height: 76px;
+  width: auto;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 #cogimyun .character-img-placeholder.toca-img {
   width: 240px;
   height: 330px;
