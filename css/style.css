@@ -1553,6 +1553,17 @@ img {
   height: 330px;
 }
 
+.macaroon-deco-plushie {
+  position: absolute;
+  top: -34px;
+  right: 28px;
+  height: 92px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 #cogimyun .character-img-placeholder.toca-img {
   width: 240px;
   height: 330px;
