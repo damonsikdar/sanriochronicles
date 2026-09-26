@@ -1564,6 +1564,17 @@ img {
   z-index: 2;
 }
 
+.macaroon-deco-snowboard {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 70px;
+  width: auto;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 #cogimyun .character-img-placeholder.toca-img {
   width: 240px;
   height: 330px;
