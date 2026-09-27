@@ -1569,6 +1569,17 @@ img {
   height: 330px;
 }
 
+.baku-deco-jacket {
+  position: absolute;
+  top: -30px;
+  right: 28px;
+  height: 90px;
+  width: auto;
+  transform: rotate(8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .macaroon-deco-plushie {
   position: absolute;
   top: -34px;
