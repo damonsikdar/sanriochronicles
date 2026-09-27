@@ -1596,6 +1596,66 @@ img {
   height: 330px;
 }
 
+/* Cherry card — magenta border */
+#cherry {
+  border: 3px solid #d6249f;
+  box-shadow: 0 6px 28px rgba(214, 36, 159, 0.3);
+}
+
+#cherry .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#cherry .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
+.cherry-deco-spellbook {
+  position: absolute;
+  top: -32px;
+  left: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.cherry-deco-diary {
+  position: absolute;
+  top: -30px;
+  right: 26px;
+  height: 82px;
+  width: auto;
+  transform: rotate(7deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.cherry-deco-cauldron {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 86px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.cherry-deco-imp {
+  position: absolute;
+  bottom: -26px;
+  right: 24px;
+  height: 78px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .berry-deco-tophat {
   position: absolute;
   top: -32px;
