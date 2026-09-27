@@ -1580,6 +1580,17 @@ img {
   z-index: 2;
 }
 
+.baku-deco-gem {
+  position: absolute;
+  bottom: -26px;
+  left: 24px;
+  height: 74px;
+  width: auto;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .macaroon-deco-plushie {
   position: absolute;
   top: -34px;
