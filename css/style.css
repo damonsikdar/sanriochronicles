@@ -379,7 +379,7 @@ img {
 
 .kuromi-featured-deco {
   position: absolute;
-  top: 188px;
+  bottom: -180px;
   left: 50%;
   transform: translateX(-50%);
   height: 170px;
