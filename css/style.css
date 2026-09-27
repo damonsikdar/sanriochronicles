@@ -320,7 +320,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 170px;
 }
 
 .card {
@@ -343,10 +343,6 @@ img {
   margin-bottom: 0.75rem;
 }
 
-#pochacco-featured-card {
-  margin-top: 150px;
-}
-
 .pochacco-featured-deco {
   position: absolute;
   top: -130px;
@@ -356,10 +352,6 @@ img {
   width: auto;
   pointer-events: none;
   z-index: 2;
-}
-
-#deardaniel-featured-card {
-  margin-top: 150px;
 }
 
 .deardaniel-featured-deco {
