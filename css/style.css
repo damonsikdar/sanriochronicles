@@ -345,10 +345,10 @@ img {
 
 .pochacco-featured-deco {
   position: absolute;
-  top: -70px;
+  top: -130px;
   left: 50%;
   transform: translateX(-50%) rotate(-4deg);
-  height: 100px;
+  height: 170px;
   width: auto;
   pointer-events: none;
   z-index: 2;
