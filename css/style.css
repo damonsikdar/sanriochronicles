@@ -346,8 +346,19 @@ img {
 .pochacco-featured-deco {
   position: absolute;
   top: -130px;
-  left: 50%;
+  left: 30%;
   transform: translateX(-50%) rotate(-4deg);
+  height: 170px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.pochacco-featured-deco2 {
+  position: absolute;
+  top: -130px;
+  left: 78%;
+  transform: translateX(-50%) rotate(5deg);
   height: 170px;
   width: auto;
   pointer-events: none;
