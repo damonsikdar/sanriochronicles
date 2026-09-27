@@ -365,9 +365,13 @@ img {
   z-index: 2;
 }
 
+#kuromi-featured-card {
+  padding-bottom: 185px;
+}
+
 .kuromi-featured-deco {
   position: absolute;
-  top: 192px;
+  bottom: 8px;
   left: 50%;
   transform: translateX(-50%) rotate(3deg);
   height: 170px;
