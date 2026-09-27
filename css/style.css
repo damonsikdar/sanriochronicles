@@ -385,7 +385,7 @@ img {
   top: 188px;
   left: 50%;
   transform: translateX(-50%);
-  height: 100px;
+  height: 95px;
   width: auto;
   pointer-events: none;
   z-index: 3;
