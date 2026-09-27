@@ -367,18 +367,13 @@ img {
 
 .kuromi-featured-deco {
   position: absolute;
-  top: 165px;
+  top: 192px;
   left: 50%;
   transform: translateX(-50%) rotate(3deg);
   height: 170px;
   width: auto;
   pointer-events: none;
   z-index: 1;
-}
-
-#kuromi-featured-card .card-img-placeholder.card-toca {
-  position: relative;
-  z-index: 5;
 }
 
 .card-img-placeholder.card-toca {
