@@ -1591,6 +1591,39 @@ img {
   z-index: 2;
 }
 
+.baku-deco-spraycan {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translateY(-50%) rotate(-8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.baku-deco-headphones {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-4deg);
+  height: 64px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.baku-deco-plush {
+  position: absolute;
+  top: 50%;
+  right: -44px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 90px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 .macaroon-deco-plushie {
   position: absolute;
   top: -34px;
