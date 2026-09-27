@@ -1701,6 +1701,66 @@ img {
   z-index: 2;
 }
 
+/* Pandapple card — red border */
+#pandapple {
+  border: 3px solid #e34234;
+  box-shadow: 0 6px 28px rgba(227, 66, 52, 0.3);
+}
+
+#pandapple .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#pandapple .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
+.pandapple-deco-backpack {
+  position: absolute;
+  top: -32px;
+  left: 24px;
+  height: 88px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.pandapple-deco-blossoms {
+  position: absolute;
+  top: -30px;
+  right: 26px;
+  height: 84px;
+  width: auto;
+  transform: rotate(7deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.pandapple-deco-bobo {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 86px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.pandapple-deco-chibi {
+  position: absolute;
+  bottom: -26px;
+  right: 24px;
+  height: 82px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .berry-deco-tophat {
   position: absolute;
   top: -32px;
