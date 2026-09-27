@@ -388,6 +388,69 @@ img {
   z-index: 3;
 }
 
+.entity-deco {
+  position: absolute;
+  pointer-events: none;
+  width: auto;
+  z-index: 2;
+}
+
+.entity-hero-tl {
+  top: 12px;
+  left: 12px;
+  height: 90px;
+  transform: rotate(-6deg);
+}
+
+.entity-hero-br {
+  bottom: 12px;
+  right: 12px;
+  height: 80px;
+  transform: rotate(6deg);
+}
+
+.entity-premise-tl {
+  top: -55px;
+  left: 2%;
+  height: 90px;
+  transform: rotate(-6deg);
+}
+
+.entity-premise-tr {
+  top: -55px;
+  right: 2%;
+  height: 90px;
+  transform: rotate(6deg);
+}
+
+.entity-premise-bl {
+  bottom: -55px;
+  left: 6%;
+  height: 80px;
+  transform: rotate(-8deg);
+}
+
+.entity-premise-br {
+  bottom: -55px;
+  right: 6%;
+  height: 80px;
+  transform: rotate(8deg);
+}
+
+.entity-featured-tr {
+  top: -55px;
+  right: 6%;
+  height: 75px;
+  transform: rotate(6deg);
+}
+
+.entity-gallery-tl {
+  top: -55px;
+  left: 6%;
+  height: 80px;
+  transform: rotate(-6deg);
+}
+
 .kuromi-floating-bunny {
   position: absolute;
   top: 40%;
