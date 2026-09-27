@@ -388,6 +388,17 @@ img {
   z-index: 3;
 }
 
+.kuromi-floating-bunny {
+  position: absolute;
+  top: 40%;
+  right: -90px;
+  transform: translateY(-50%) rotate(6deg);
+  height: 110px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 .card-img-placeholder.card-toca {
   width: 120px;
   height: 160px;
