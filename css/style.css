@@ -343,6 +343,17 @@ img {
   margin-bottom: 0.75rem;
 }
 
+.pochacco-featured-deco {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-4deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 .card-img-placeholder.card-toca {
   width: 120px;
   height: 160px;
