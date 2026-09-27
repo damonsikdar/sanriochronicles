@@ -1585,6 +1585,50 @@ img {
   height: 330px;
 }
 
+.berry-deco-tophat {
+  position: absolute;
+  top: -32px;
+  left: 24px;
+  height: 78px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.berry-deco-partyhat {
+  position: absolute;
+  top: -34px;
+  right: 28px;
+  height: 88px;
+  width: auto;
+  transform: rotate(8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.berry-deco-backpack {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 86px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.berry-deco-imp {
+  position: absolute;
+  bottom: -26px;
+  right: 24px;
+  height: 76px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .baku-deco-jacket {
   position: absolute;
   top: -30px;
