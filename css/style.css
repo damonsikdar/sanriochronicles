@@ -376,16 +376,16 @@ img {
   z-index: 2;
 }
 
-#kuromi-featured-card {
-  padding-bottom: 150px;
+#kuromi-featured-card .card-img-placeholder.card-toca {
+  margin-bottom: 180px;
 }
 
 .kuromi-featured-deco {
   position: absolute;
-  bottom: 8px;
+  top: 188px;
   left: 50%;
   transform: translateX(-50%);
-  height: 140px;
+  height: 170px;
   width: auto;
   pointer-events: none;
   z-index: 3;
