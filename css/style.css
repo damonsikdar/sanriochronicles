@@ -1569,6 +1569,22 @@ img {
   height: 330px;
 }
 
+/* Berry card — beige border */
+#berry {
+  border: 3px solid #d9c4a3;
+  box-shadow: 0 6px 28px rgba(217, 196, 163, 0.35);
+}
+
+#berry .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#berry .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
 .baku-deco-jacket {
   position: absolute;
   top: -30px;
