@@ -1553,6 +1553,22 @@ img {
   height: 330px;
 }
 
+/* Baku card — dark purple border */
+#baku {
+  border: 3px solid #4b2e83;
+  box-shadow: 0 6px 28px rgba(75, 46, 131, 0.3);
+}
+
+#baku .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#baku .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
 .macaroon-deco-plushie {
   position: absolute;
   top: -34px;
