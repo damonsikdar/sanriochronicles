@@ -321,6 +321,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
   margin-top: 170px;
+  margin-bottom: 190px;
 }
 
 .card {
@@ -376,13 +377,9 @@ img {
   z-index: 2;
 }
 
-#kuromi-featured-card .card-img-placeholder.card-toca {
-  margin-bottom: 170px;
-}
-
 .kuromi-featured-deco {
   position: absolute;
-  top: 178px;
+  top: 188px;
   left: 50%;
   transform: translateX(-50%);
   height: 170px;
