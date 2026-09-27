@@ -354,6 +354,17 @@ img {
   z-index: 2;
 }
 
+.deardaniel-featured-deco {
+  position: absolute;
+  top: -130px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+  height: 170px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 .pochacco-featured-deco2 {
   position: absolute;
   top: -130px;
