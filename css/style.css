@@ -1895,6 +1895,77 @@ img {
   z-index: 2;
 }
 
+/* Retsuko card — orange border */
+#retsuko {
+  border: 3px solid #f5921f;
+  box-shadow: 0 6px 28px rgba(245, 146, 31, 0.3);
+}
+
+#retsuko .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#retsuko .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
+.retsuko-deco-notebook {
+  position: absolute;
+  top: -30px;
+  left: 24px;
+  height: 84px;
+  width: auto;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.retsuko-deco-phone {
+  position: absolute;
+  top: -28px;
+  right: 26px;
+  height: 80px;
+  width: auto;
+  transform: rotate(7deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.retsuko-deco-computer {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  height: 80px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.retsuko-deco-mic {
+  position: absolute;
+  bottom: -26px;
+  right: 24px;
+  height: 80px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.retsuko-deco-chibi {
+  position: absolute;
+  top: 50%;
+  right: -58px;
+  transform: translateY(-50%) rotate(8deg);
+  height: 100px;
+  width: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
 .berry-deco-tophat {
   position: absolute;
   top: -32px;
