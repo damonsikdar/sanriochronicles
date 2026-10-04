@@ -1835,6 +1835,66 @@ img {
   z-index: 2;
 }
 
+/* Buppi card — light blue border */
+#buppi {
+  border: 3px solid #a8d8ff;
+  box-shadow: 0 6px 28px rgba(168, 216, 255, 0.4);
+}
+
+#buppi .character-img-placeholder.toca-img {
+  width: 240px;
+  height: 330px;
+}
+
+#buppi .character-img-placeholder.toca-img img {
+  width: 240px;
+  height: 330px;
+}
+
+.buppi-deco-soccerball {
+  position: absolute;
+  top: -30px;
+  left: 24px;
+  height: 80px;
+  width: auto;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.buppi-deco-fish {
+  position: absolute;
+  top: -28px;
+  right: 20px;
+  height: 70px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.buppi-deco-dango {
+  position: absolute;
+  bottom: -32px;
+  left: 28px;
+  height: 92px;
+  width: auto;
+  transform: rotate(-5deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.buppi-deco-piglet {
+  position: absolute;
+  bottom: -28px;
+  right: 24px;
+  height: 84px;
+  width: auto;
+  transform: rotate(6deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .berry-deco-tophat {
   position: absolute;
   top: -32px;
