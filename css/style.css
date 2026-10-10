@@ -100,7 +100,7 @@ img {
 /* ── Hero ────────────────────────────────────────────────── */
 
 .hero {
-  background-image: url('../images/hero-banner.png');
+  background-image: url('../images/hero-banner.jpg');
   background-size: cover;
   background-position: center top;
   aspect-ratio: 1983 / 793;
