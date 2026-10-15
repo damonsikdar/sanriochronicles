@@ -1917,6 +1917,12 @@ img {
   height: 330px;
 }
 
+/* Fenneko card — magenta border */
+#fenneko {
+  border: 3px solid #e6009c;
+  box-shadow: 0 6px 28px rgba(230, 0, 156, 0.3);
+}
+
 #retsuko .character-img-placeholder.toca-img img {
   width: 240px;
   height: 330px;
